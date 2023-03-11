@@ -1,11 +1,14 @@
 * {
     box-sizing: border-box;
 }
-.users-list{
-        background-color: burlywood;
-        height: 100vh;
+
+.users-list {
+    background-color: burlywood;
+    background-size: cover;
+    height: auto;
 
 }
+
 .round h1 {
     margin: 15px;
     padding: 10px;
@@ -16,8 +19,11 @@
     box-shadow: 5px 5px 5px black;
 
 }
-#hd1{
+
+#hd1 {
     background-color: burlywood;
+    /* background-size: cover;
+    height: 1000vh; */
 
 }
 
@@ -30,20 +36,22 @@
     height: 260px;
     width: 275px;
     margin: 20px 73px;
-    background: linear-gradient(to right,rgba(244, 13, 13, 0.5), rgba(90, 33, 214, 0.5));
+    background: linear-gradient(to right, rgba(244, 13, 13, 0.5), rgba(90, 33, 214, 0.5));
 }
 
 .mData {
     display: inline-block;
     /* background-color: burlywood; */
 }
-#bus4{
-   
-        border-radius: 10px;
-        padding: 4px;
+
+#bus4 {
+
+    border-radius: 10px;
+    padding: 4px;
     /* background-color: rgb(229, 199, 192); */
 }
-.butnL button:hover{
+
+.butnL button:hover {
     color: rgb(252, 244, 244);
     background-color: rgb(25, 14, 35);
 
