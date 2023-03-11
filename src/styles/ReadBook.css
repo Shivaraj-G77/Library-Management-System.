@@ -1,0 +1,17 @@
+.fig1{
+    display: flex;
+    border: solid 4px black;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(60, 26, 140);
+    background-color: rgb(172, 147, 147);
+
+}
+.ig{
+    border: solid 2px black;
+    height: 405px;
+    margin: 20px;
+}
+*{
+    box-sizing: border-box;
+}

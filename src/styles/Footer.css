@@ -1,0 +1,29 @@
+.footer {
+    background-color: rgb(51, 53, 69);
+    text-align: center;
+    padding: 0px 0px;
+    /* margin-top: 50px; */
+}
+
+.linnks li {
+
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+
+.linnks a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.linnks ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.copyright p {
+    margin: 0px;
+    color: rgb(163, 165, 181);
+}

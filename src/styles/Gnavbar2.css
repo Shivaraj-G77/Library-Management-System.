@@ -1,0 +1,55 @@
+.navvbar1 {
+    position:sticky;
+    top:95px;
+
+    z-index: 2; 
+    /* z-index IS USED TO SPECIFY WHICH ELEMENT TO BE IN FIRST POSITION */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+        box-shadow: 1px 1px 10px 1px  rgb(147, 145, 145);
+
+    padding: 20px 64px;
+}
+
+.linksz li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+
+.linksz a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+
+.fk1 a:hover{
+    color: rgb(235, 13, 227);
+    border-bottom: 5px solid rgb(217, 16, 147);
+
+}
+.fk2 a:hover{
+    color: orange;
+    border-bottom: 5px solid orange;
+}
+.fk3 a:hover{
+    color: blue;
+    border-bottom: 5px solid blue;
+}
+.fk4 a:hover{
+    color: rgb(20, 135, 180);
+    border-bottom: 5px solid rgb(20, 135, 180);
+}
+.fk5 a:hover{
+    color: purple;
+    border-bottom: 5px solid purple;
+}
+.fk6 a:hover{
+    color: red;
+    border-bottom: 5px solid red;
+}

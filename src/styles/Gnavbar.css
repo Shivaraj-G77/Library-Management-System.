@@ -1,0 +1,35 @@
+.gnavbar {
+    position:sticky;
+    top:0px;
+
+    /* z-index: 1; z-index IS USED TO SPECIFY WHICH ELEMENT TO BE IN FIRST POSITION */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 64px;
+}
+.lf1{
+    display: flex;
+
+}
+.if1{
+    margin:0px 35px;
+
+}
+.tp h1{
+font-family: adobe-garamond-pro,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    /* margin-left: 8px; */
+    position: relative;
+    color:  rgb(40, 175, 121);
+    padding: 20px;
+}
+.logo0{
+    display: flex;
+    align-items: center;
+}

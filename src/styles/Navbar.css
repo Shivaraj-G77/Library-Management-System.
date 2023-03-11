@@ -1,0 +1,37 @@
+.navbar {
+    position:sticky;
+    top:0px;
+z-index: 1;
+    /* z-index: 1; z-index IS USED TO SPECIFY WHICH ELEMENT TO BE IN FIRST POSITION */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51, 53, 69);
+    padding: 10px 64px;
+}
+
+.links li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+/* .links button{
+    background-color: rgb(248,68,100);
+    color: white;
+    border: none;
+    padding: 6px 18px;
+    border-radius: 5px;
+} */
+.links a:hover{
+    color: gainsboro;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid gainsboro;
+}
