@@ -13,7 +13,7 @@ const ReadBook = () => {
 
     let params = useParams()  //used to fetch id from url or route
     // console.log(params);   
-    //params will store an object from server or url, so while using we should use objname.key to grt the value from obj.
+    //params will store an object from server or url, so while using we should use objname.key to get the value from obj.
     useEffect(() => {
         let fetchData = async () => {
             let response = await fetch(`http://localhost:4010/books/${params.id}`)
@@ -26,7 +26,7 @@ const ReadBook = () => {
         <div className="readbook">
             <Navbar />
 
-           
+
 
             <div className="man">
 
@@ -52,7 +52,7 @@ const ReadBook = () => {
 
 
 
-<Footer/>
+            <Footer />
         </div>
     );
 }

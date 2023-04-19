@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     padding: 6px 0px 0px 675px;
-
 }
 
 .cF3 h4 {
@@ -25,6 +24,7 @@
 
 
 .tog1 h1 {
+    color:rgb(40, 175, 121) ;
     border-bottom: 2px solid  rgb(40, 175, 121);
     width: 450px;
 }
@@ -113,6 +113,8 @@
 .cF2 h1 {
     border-bottom: 2px solid palevioletred;
     width: 500px;
+    color:rgb(40, 175, 121) ;
+
 }
 
 .cF6 {
@@ -132,6 +134,7 @@
     border: 1px solid rgb(231, 72, 99);
     background-color: rgb(231, 72, 99);
     padding: 6px 0px 4.2px 0px;
+    color:rgb(40, 175, 121) ;
 
 }
 
@@ -331,6 +334,7 @@
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 10;
+    
 }
 
 .secondtwo {

@@ -1,23 +1,6 @@
 {
   "books": [
     {
-      "id": 3,
-      "title": "Specification by Example",
-      "isbn": "1617290084",
-      "pageCount": 0,
-      "publishedDate": {
-        "$date": "2011-06-03T00:00:00.000-0700"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/adzic.jpg",
-      "status": "PUBLISH",
-      "authors": [
-        "Gojko Adzic"
-      ],
-      "categories": [
-        "Software Engineering"
-      ]
-    },
-    {
       "id": 4,
       "title": "Flex 3 in Action",
       "isbn": "1933988746",
@@ -133,25 +116,6 @@
         "Danno Ferrin",
         "",
         "James Shingler"
-      ],
-      "categories": [
-        "Java"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "OSGi in Depth",
-      "isbn": "193518217X",
-      "pageCount": 325,
-      "publishedDate": {
-        "$date": "2011-12-12T00:00:00.000-0800"
-      },
-      "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alves.jpg",
-      "shortDescription": "Enterprise OSGi shows a Java developer how to develop to the OSGi Service Platform Enterprise specification, an emerging Java-based technology for developing modular enterprise applications. Enterprise OSGi addresses several shortcomings of existing enterprise platforms, such as allowing the creation of better maintainable and extensible applications, and provide a simpler, easier-to-use, light-weight solution to enterprise software development.",
-      "longDescription": "A good application framework greatly simplifies a developer's task by providing reusable code modules that solve common, tedious, or complex tasks. Writing a great framework requires an extraordinary set of skills-ranging from deep knowledge of a programming language and target platform to a crystal-clear view of the problem space where the applications to be developed using the framework will be used.    OSGi Application Frameworks shows a Java developer how to build frameworks based on the OSGi service platform. OSGi, an emerging Java-based technology for developing modular applications, is a great tool for framework building. A framework itself, OSGi allows the developer to create a more intuitive, modular framework by isolating many of the key challenges the framework developer faces.    This book begins by describing the process, principles, and tools you must master to build a custom application framework. It introduces the fundamental concepts of OSGi, and then shows you how to put OSGi to work building various types of frameworks that solve specific development problems.    OSGi is particularly useful for building frameworks that can be easily extended by developers to create domain-specific applications. This book teaches the developer to break down a problem domain into its abstractions and then use OSGi to create a modular framework solution. Along the way, the developer learns software engineering practices intrinsic to framework building that result in systems with better software qualities, such as flexibility, extensibility, and maintainability.    Author Alexandre Alves guides you through major concepts, such as the definition of programming models and modularization techniques, and complements them with samples that have real applicability using industry-proved technologies, such as Spring-DM and Equinox.",
-      "status": "PUBLISH",
-      "authors": [
-        "Alexandre de Castro Alves"
       ],
       "categories": [
         "Java"
@@ -7031,6 +6995,14 @@
       "categories": "Devotion",
       "thumbnailUrl": "data:image/jpeg;base64,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",
       "id": 797
+    },
+    {
+      "title": "VIshnupurana",
+      "pageCount": "656",
+      "authors": "vishnu",
+      "categories": "Devotional",
+      "thumbnailUrl": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71iw00I0d8L.jpg",
+      "id": 798
     }
   ],
   "users": [
@@ -7049,13 +7021,6 @@
       "id": 2
     },
     {
-      "firstName": "Gulshan",
-      "lastName": "",
-      "email": "gullu@gmail.com",
-      "contact": "67534",
-      "id": 3
-    },
-    {
       "firstName": "Manoj",
       "lastName": "k",
       "email": "Manuu@gmail.com",
@@ -7070,10 +7035,10 @@
       "id": 5
     },
     {
-      "firstName": "Sanna",
-      "lastName": "Huseni",
-      "email": "Sanna@gmail.com",
-      "contact": "8997166",
+      "firstName": "vishnu",
+      "lastName": "",
+      "email": "vish@gmail",
+      "contact": "hgghsyygfs",
       "id": 6
     }
   ]

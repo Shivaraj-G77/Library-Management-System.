@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
+
 import Navbar from "./navbar";
 import "../styles/UserList.css"
 import Footer from "./footer";
@@ -50,7 +51,7 @@ const UserList = () => {
                                 <h4>Email:{data.email}</h4>
                                 <h4>Contact:{data.contact}</h4>
                             </div>
-                            
+
                             <br />
                             <br />
                             <div className="butnL">
@@ -75,7 +76,7 @@ const UserList = () => {
 
 
 
-<Footer/>
+            <Footer />
         </div>
     );
 }
